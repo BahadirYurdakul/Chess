@@ -11,7 +11,7 @@ public class Bishop extends ChessPiece {
 	@Override
 	public void print() {
 		if(isWhite())
-			System.out.print("B");
+			System.out.print("B");;
 		else
 			System.out.print("b");
 	}
